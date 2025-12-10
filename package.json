@@ -1,14 +1,19 @@
 {
   "name": "docstore-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend API pour bibliothèque avec Google Drive",
+  "type": "module",
+  "main": "api/google.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "google-drive",
+    "api",
+    "backend"
+  ],
+  "author": "Rahim",
+  "license": "MIT",
   "dependencies": {
     "googleapis": "^168.0.0"
   }
