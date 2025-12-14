@@ -1,0 +1,2 @@
+Si votre backend (pour Google Drive) ne retourne pas le nom dans la liste /api/files, le nom restera absent
+ et nous retomberons sur l'ID ; pour corriger il faudrait améliorer le backend pour inclure name/title dans la réponse files.
