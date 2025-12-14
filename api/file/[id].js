@@ -1,4 +1,4 @@
-import { getDrive } from "../../google.js";
+import { getDrive } from "../google.js";
 
 export default async function handler(req, res) {
     // Autoriser uniquement GET
